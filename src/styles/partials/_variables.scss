@@ -1,2 +1,20 @@
+// breakpoints for responsive design
 $tablet-breakpoint : 768px;
 $desktop-breakpoint: 1440px;
+
+// primary colors
+$alt-font-color-first: hsl(167, 40%, 24%);
+$alt-font-color-second: hsl(198, 62%, 26%);
+$accent-color-first: hsl(7, 99%, 70%);
+$accent-color-second: hsl(51, 100%, 49%);
+$footer-background: hsl(168, 34%, 41%);
+
+// neutral colors
+$neutral-dark: hsl(212, 27%, 19%);
+$neutral-medium: hsl(213, 9%, 39%);
+$neutral-light: hsl(232, 10%, 55%);
+$neutral-lightest: hsl(210, 4%, 67%);
+$neutral-white: hsl(0, 0%, 100%);
+
+// main font size for body
+$body-font-size: 18px;
