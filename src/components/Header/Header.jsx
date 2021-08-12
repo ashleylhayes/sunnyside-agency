@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.scss';
-import logo from '../../assets/logo/logo.svg';
+import logo from '../../assets/logo/logo-header.svg';
 import menuIcon from '../../assets/icons/icon-hamburger.svg';
 import arrowIcon from '../../assets/icons/icon-arrow-down.svg';
 
