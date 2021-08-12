@@ -1,12 +1,5 @@
 @import '../../styles/global.scss';
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .header {
     background: url('../../assets/images/mobile/image-header.jpg') no-repeat;
     background-size: cover;
