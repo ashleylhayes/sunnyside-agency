@@ -11,16 +11,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 50px 0;
+        margin: 60px 0;
 
         &-title {
             font-family: 'Fraunces';
             font-weight: 800;
             text-align: center;
             color: $neutral-dark;
-            font-size: 2.1rem;
+            font-size: 2rem;
             width: 80vw;
-            margin-bottom: 25px;
+            margin-bottom: 30px;
         }
 
         &-blurb {
@@ -29,7 +29,8 @@
             color: $neutral-light;
             font-size: 18px;
             width: 86vw;
-            margin-bottom: 30px;
+            margin-bottom: 35px;
+            line-height: 30px;
         }
 
         &-learn {
@@ -43,15 +44,95 @@
     &__featured-service {
         width: 100vw;
         height: 160vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title {
+            font-family: 'Fraunces';
+            font-weight: 800;
+            font-size: 1.7rem;
+            text-align: center;
+            padding-top: 400px;
+        }
+
+        &-blurb {
+            font-family: 'Barlow';
+            font-size: 16px;
+            text-align: center;
+            margin-top: 25px;
+            width: 90vw;
+            line-height: 30px;
+        }
     }
 
     &__design {
         background: url('../../assets/images/mobile/image-graphic-design.jpg') no-repeat;
         background-size: contain;
+        color: $alt-font-color-first;
     }
 
     &__photography {
         background: url('../../assets/images/mobile/image-photography.jpg') no-repeat;
         background-size: contain;
+        color: $alt-font-color-second;
+    }
+
+    &__testimonials {
+        margin-bottom: 18px;
+
+        &-title {
+            font-family: 'Fraunces';
+            font-weight: 800;
+            text-align: center;
+            color: $neutral-lightest;
+            margin: 65px 0;
+            font-size: 1rem;
+            letter-spacing: 3.3px;
+        }
+    }
+
+    &__testimonial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-image {
+            width: 70px;
+            border-radius: 50%;
+        }
+
+        &-quote {
+            font-family: 'Barlow';
+            font-size: 18px;
+            color: $neutral-medium;
+            text-align: center;
+            margin: 35px 23px;
+            line-height: 30px;
+        }
+
+        &-name {
+            font-family: 'Fraunces';
+            font-weight: 800;
+            color: $neutral-dark;
+            font-size: 18px;
+        }
+
+        &-position {
+            font-family: 'Barlow';
+            color: $neutral-lightest;
+            font-size: 14px;
+            margin: 15px 0 70px 0;
+        }
+    }
+
+    &__gallery {
+        display: flex;
+        flex-wrap: wrap;
+
+        &-image {
+            width: 50vw;
+            height: 50vw;
+        }
     }
 }

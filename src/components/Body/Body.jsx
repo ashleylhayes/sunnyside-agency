@@ -5,6 +5,10 @@ import cupImage from '../../assets/images/mobile/image-stand-out.jpg';
 import firstClient from '../../assets/images/clients/image-emily.jpg';
 import secondClient from '../../assets/images/clients/image-thomas.jpg';
 import thirdClient from '../../assets/images/clients/image-jennie.jpg';
+import firstGalleryImage from '../../assets/images/mobile/image-gallery-milkbottles.jpg';
+import secondGalleryImage from '../../assets/images/mobile/image-gallery-orange.jpg';
+import thirdGalleryImage from '../../assets/images/mobile/image-gallery-cone.jpg';
+import fourthGalleryImage from '../../assets/images/mobile/image-gallery-sugar-cubes.jpg';
 
 function Body() {
     return (
@@ -34,61 +38,67 @@ function Body() {
                 </p>
             </div>
             <div className='body__featured-service body__design'>
-                <h3>
+                <h3 className='body__featured-service-title'>
                     Graphic Design
                 </h3>
-                <p>
+                <p className='body__featured-service-blurb'>
                     Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.
                 </p>
             </div>
             <div className='body__featured-service body__photography'>
-                <h3>
+                <h3 className='body__featured-service-title'>
                     Photography
                 </h3>
-                <p>
-                    Increase your credibility by gettin the most stunning, high-quality photos that improve your business image.
+                <p className='body__featured-service-blurb'>
+                    Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
                 </p>
             </div>
             <div className='body__testimonials'>
-                <h4>
+                <h4 className='body__testimonials-title'>
                     CLIENT TESTIMONIALS
                 </h4>
                 <div className='body__testimonial'>
-                    <img src={firstClient} />
-                    <p>
+                    <img className='body__testimonial-image' src={firstClient} />
+                    <p className='body__testimonial-quote'>
                         We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
                     </p>
-                    <p>
+                    <p className='body__testimonial-name'>
                         Emily R.
                     </p>
-                    <p>
+                    <p className='body__testimonial-position'>
                         Marketing Director
                     </p>
                 </div>
                 <div className='body__testimonial'>
-                    <img src={secondClient} />
-                    <p>
+                    <img className='body__testimonial-image' src={secondClient} />
+                    <p className='body__testimonial-quote'>
                         Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
                     </p>
-                    <p>
+                    <p className='body__testimonial-name'>
                         Thomas S.
                     </p>
-                    <p>
+                    <p className='body__testimonial-position'>
                         Chief Operating Officer
                     </p>
                 </div>
                 <div className='body__testimonial'>
-                    <img src={thirdClient} />
-                    <p>
+                    <img className='body__testimonial-image' src={thirdClient} />
+                    <p className='body__testimonial-quote'>
                         Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
                     </p>
-                    <p>
+                    <p className='body__testimonial-name'>
                         Jennie F.
                     </p>
-                    <p>
+                    <p className='body__testimonial-position'>
                         Business Owner
                     </p>
                 </div>
+            </div>
+            <div className='body__gallery'>
+                <img className='body__gallery-image' src={firstGalleryImage} />
+                <img className='body__gallery-image' src={secondGalleryImage} />
+                <img className='body__gallery-image' src={thirdGalleryImage} />
+                <img className='body__gallery-image' src={fourthGalleryImage} />
             </div>
         </section>
     );
