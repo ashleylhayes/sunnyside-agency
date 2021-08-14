@@ -21,9 +21,13 @@ function Body() {
                 <p className='body__benefits-blurb'>
                     We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
                 </p>
-                <p className='body__benefits-learn'>
-                    LEARN MORE
-                </p>
+                <div className='body__benefits-learn-container'>
+                    <p className='body__benefits-learn'>
+                        LEARN MORE
+                    </p>
+                    <div className='body__benefits-learn-line'>
+                    </div>
+                </div>
             </div>
             <img className='body__image' src={cupImage} />
             <div className='body__benefits'>
@@ -33,9 +37,13 @@ function Body() {
                 <p className='body__benefits-blurb'>
                     Using a collaborative formula of designers, researchers, photograpgers, videographers, and copywriters, we'll build and extend your brand in digital places.
                 </p>
-                <p className='body__benefits-learn'>
-                    LEARN MORE
-                </p>
+                <div className='body__benefits-learn-container'>
+                    <p className='body__benefits-learn'>
+                        LEARN MORE
+                    </p>
+                    <div className='body__benefits-learn-line--alt'>
+                    </div>
+                </div>
             </div>
             <div className='body__featured-service body__design'>
                 <h3 className='body__featured-service-title'>
