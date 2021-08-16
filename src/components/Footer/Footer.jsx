@@ -10,7 +10,7 @@ import iconPinterest from '../../assets/icons/icon-pinterest.svg';
 function Footer() {
     return (
         <div className='footer'>
-            <img className='footer__logo' src={logo} />
+            <img className='footer__logo' src={logo} alt='logo that reads sunnyside in green' />
             <div className='footer__nav'>
                 <p className='footer__nav-item'>
                     About
@@ -23,10 +23,10 @@ function Footer() {
                 </p>
             </div>
             <div className='footer__social'>
-                <img className='footer__social-icon' src={iconFacebook} />
-                <img className='footer__social-icon' src={iconInstagram} />
-                <img className='footer__social-icon' src={iconTwitter} />
-                <img className='footer__social-icon' src={iconPinterest} />
+                <img className='footer__social-icon' src={iconFacebook} alt='facebook logo in green' />
+                <img className='footer__social-icon' src={iconInstagram} alt='instagram logo in green' />
+                <img className='footer__social-icon' src={iconTwitter} alt='twitter logo in green' />
+                <img className='footer__social-icon' src={iconPinterest} alt='pinterest logo in green' />
             </div>
         </div>
     );

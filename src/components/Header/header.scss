@@ -15,6 +15,52 @@
     &__menu {
         height: 20px;
         width: 28px;
+
+        &-button {
+            background-color: transparent;
+            border: none;
+        }
+
+        &-no-show {
+            display: none;
+        }
+
+        &-show {
+            background-color: white;
+            height: 83vw;
+            width: 90vw;
+            z-index: 103;
+            position: fixed;
+            top: 100px;
+            left: 5vw;
+            right: 5vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        &-item {
+            list-style-type: none;
+            font-family: 'Barlow';
+            font-size: 18px;
+            color: $neutral-light;
+            text-align: center;
+            width: 150px;
+
+            &--contact {
+                font-family: 'Fraunces';
+                font-weight: 800;
+                font-size: 16px;
+                color: $neutral-dark;
+                background-color: $accent-color-second;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 30px;
+                height: 60px;
+            }
+        }
     }
 
     &__slogan-container {

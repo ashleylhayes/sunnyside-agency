@@ -13,7 +13,7 @@ import fourthGalleryImage from '../../assets/images/mobile/image-gallery-sugar-c
 function Body() {
     return (
         <section className='body'>
-            <img className='body__image' src={eggImage} />
+            <img className='body__image' src={eggImage} alt='white egg against a yellow background' />
             <div className='body__benefits'>
                 <h2 className='body__benefits-title'>
                     Transform your brand
@@ -29,7 +29,7 @@ function Body() {
                     </div>
                 </div>
             </div>
-            <img className='body__image' src={cupImage} />
+            <img className='body__image' src={cupImage} alt='red chalice cup against a red background' />
             <div className='body__benefits'>
                 <h2 className='body__benefits-title'>
                     Stand out to the right audience
@@ -66,7 +66,7 @@ function Body() {
                     CLIENT TESTIMONIALS
                 </h4>
                 <div className='body__testimonial'>
-                    <img className='body__testimonial-image' src={firstClient} />
+                    <img className='body__testimonial-image' src={firstClient} alt='woman with long blonde hair turned away from camera, stonr background' />
                     <p className='body__testimonial-quote'>
                         We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
                     </p>
@@ -78,7 +78,7 @@ function Body() {
                     </p>
                 </div>
                 <div className='body__testimonial'>
-                    <img className='body__testimonial-image' src={secondClient} />
+                    <img className='body__testimonial-image' src={secondClient} alt='man with short black hair smiling at camera, grey background' />
                     <p className='body__testimonial-quote'>
                         Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.
                     </p>
@@ -90,7 +90,7 @@ function Body() {
                     </p>
                 </div>
                 <div className='body__testimonial'>
-                    <img className='body__testimonial-image' src={thirdClient} />
+                    <img className='body__testimonial-image' src={thirdClient} alt='woman with brown hair smiling at camera, beach in background' />
                     <p className='body__testimonial-quote'>
                         Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
                     </p>
@@ -103,10 +103,10 @@ function Body() {
                 </div>
             </div>
             <div className='body__gallery'>
-                <img className='body__gallery-image' src={firstGalleryImage} />
-                <img className='body__gallery-image' src={secondGalleryImage} />
-                <img className='body__gallery-image' src={thirdGalleryImage} />
-                <img className='body__gallery-image' src={fourthGalleryImage} />
+                <img className='body__gallery-image' src={firstGalleryImage} alt='white milk bottles with red lids, blue background with white clouds' />
+                <img className='body__gallery-image' src={secondGalleryImage} alt='orange slice on a white plate with blue border, orange background' />
+                <img className='body__gallery-image' src={thirdGalleryImage} alt='waffle ice cream cone, blue background' />
+                <img className='body__gallery-image' src={fourthGalleryImage} alt='white sugar cubes stacked aginst a pink background' />
             </div>
         </section>
     );
