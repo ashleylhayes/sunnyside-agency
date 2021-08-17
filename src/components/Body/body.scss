@@ -5,6 +5,16 @@
 
     &__image {
         width: 100vw;
+        height: 83.2vw;
+        background-size: cover;
+
+        &:nth-child(1) {
+            background-image: url('../../assets/images/mobile/image-transform.jpg');
+        }
+
+        &:nth-child(3) {
+            background-image: url('../../assets/images/mobile/image-stand-out.jpg');
+        }
     }
 
     &__benefits {
@@ -56,6 +66,7 @@
                 position: absolute;
                 bottom: 0px;
                 z-index: 100;
+                cursor: pointer;
 
                 &:hover {
                     background: rgba(250, 212, 0, 1.0);
@@ -165,6 +176,23 @@
         &-image {
             width: 50vw;
             height: 50vw;
+            background-size: cover;
+
+            &:nth-child(1) {
+                background-image: url('../../assets/images/mobile/image-gallery-milkbottles.jpg');
+            }
+
+            &:nth-child(2) {
+                background-image: url('../../assets/images/mobile/image-gallery-orange.jpg');
+            }
+
+            &:nth-child(3) {
+                background-image: url('../../assets/images/mobile/image-gallery-cone.jpg');
+            }
+
+            &:nth-child(4) {
+                background-image: url('../../assets/images/mobile/image-gallery-sugar-cubes.jpg');
+            }
         }
     }
 }

@@ -1,19 +1,13 @@
 import React from 'react';
 import './body.scss';
-import eggImage from '../../assets/images/mobile/image-transform.jpg';
-import cupImage from '../../assets/images/mobile/image-stand-out.jpg';
 import firstClient from '../../assets/images/clients/image-emily.jpg';
 import secondClient from '../../assets/images/clients/image-thomas.jpg';
 import thirdClient from '../../assets/images/clients/image-jennie.jpg';
-import firstGalleryImage from '../../assets/images/mobile/image-gallery-milkbottles.jpg';
-import secondGalleryImage from '../../assets/images/mobile/image-gallery-orange.jpg';
-import thirdGalleryImage from '../../assets/images/mobile/image-gallery-cone.jpg';
-import fourthGalleryImage from '../../assets/images/mobile/image-gallery-sugar-cubes.jpg';
 
 function Body() {
     return (
         <section className='body'>
-            <img className='body__image' src={eggImage} alt='white egg against a yellow background' />
+            <div className='body__image' role='img' aria-label='white egg against a yellow background'></div>
             <div className='body__benefits'>
                 <h2 className='body__benefits-title'>
                     Transform your brand
@@ -29,7 +23,7 @@ function Body() {
                     </div>
                 </div>
             </div>
-            <img className='body__image' src={cupImage} alt='red chalice cup against a red background' />
+            <div className='body__image' role='img' aria-label='red chalice cup against a red background'></div>
             <div className='body__benefits'>
                 <h2 className='body__benefits-title'>
                     Stand out to the right audience
@@ -103,10 +97,10 @@ function Body() {
                 </div>
             </div>
             <div className='body__gallery'>
-                <img className='body__gallery-image' src={firstGalleryImage} alt='white milk bottles with red lids, blue background with white clouds' />
-                <img className='body__gallery-image' src={secondGalleryImage} alt='orange slice on a white plate with blue border, orange background' />
-                <img className='body__gallery-image' src={thirdGalleryImage} alt='waffle ice cream cone, blue background' />
-                <img className='body__gallery-image' src={fourthGalleryImage} alt='white sugar cubes stacked aginst a pink background' />
+                <div className='body__gallery-image' role='img' aria-label='white milk bottles with red lids, blue background with white clouds'></div>
+                <div className='body__gallery-image' role='img' aria-label='orange slice on a white plate with blue border, orange background'></div>
+                <div className='body__gallery-image' role='img' aria-label='waffle ice cream cone, blue background'></div>
+                <div className='body__gallery-image' role='img' aria-label='white sugar cubes stacked aginst a pink background'></div>
             </div>
         </section>
     );
