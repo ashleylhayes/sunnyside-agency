@@ -16,6 +16,11 @@
         height: 20px;
         width: 28px;
 
+        &-logo {
+            height: 24px;
+            width: 124px;
+        }
+
         &-button {
             background-color: transparent;
             border: none;
@@ -49,7 +54,7 @@
                 border-top: 12px solid transparent;
                 border-bottom: 12px solid #FFFFFF;
                 right: 0px;
-                top: -24px;
+                top: -23px;
             }
         }
 

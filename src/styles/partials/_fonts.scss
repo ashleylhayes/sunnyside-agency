@@ -1,16 +1,19 @@
 @font-face {
     font-family: 'Barlow';
     src: url('../../assets/fonts/Barlow/Barlow-SemiBold.ttf') format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Fraunces';
     font-weight: 700;
     src: url('../../assets/fonts/Fraunces/Fraunces-Bold.ttf') format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Fraunces';
     font-weight: 900;
     src: url('../../assets/fonts/Fraunces/Fraunces-Black.ttf') format('truetype');
+    font-display: swap;
 }

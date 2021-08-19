@@ -1,1 +1,51 @@
 @import '../../styles/global.scss';
+
+.testimonials {
+    max-width: 100vw;
+    margin-bottom: 18px;
+
+    &__title {
+        font-family: 'Fraunces';
+        font-weight: 800;
+        text-align: center;
+        color: $neutral-lightest;
+        margin: 65px 0;
+        font-size: 1rem;
+        letter-spacing: 3.3px;
+    }
+
+    &__testimonial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-image {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+
+        &-quote {
+            font-family: 'Barlow';
+            font-size: 18px;
+            color: $neutral-medium;
+            text-align: center;
+            margin: 35px 23px;
+            line-height: 30px;
+        }
+
+        &-name {
+            font-family: 'Fraunces';
+            font-weight: 800;
+            color: $neutral-dark;
+            font-size: 18px;
+        }
+
+        &-position {
+            font-family: 'Barlow';
+            color: $neutral-lightest;
+            font-size: 14px;
+            margin: 15px 0 70px 0;
+        }
+    }
+}

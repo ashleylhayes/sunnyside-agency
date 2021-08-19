@@ -16,7 +16,7 @@ function Header() {
         <header>
             <div className='header'>
                 <nav className='header__menu-container'>
-                    <img className='header__logo' src={logo} alt='logo that reads sunnyside in white' />
+                    <img className='header__menu-logo' src={logo} alt='logo that reads sunnyside in white' />
                     <button className='header__menu-button' onClick={handleToggle}>
                         <img className='header__menu' src={menuIcon} alt='white menu option with three horizontal lines' />
                     </button>
