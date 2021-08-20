@@ -17,6 +17,12 @@ function Header() {
             <div className='header'>
                 <nav className='header__menu-container'>
                     <img className='header__menu-logo' src={logo} alt='logo that reads sunnyside in white' />
+                    <ul className='header__menu-list'>
+                        <li className='header__menu-list-item'>About</li>
+                        <li className='header__menu-list-item'>Services</li>
+                        <li className='header__menu-list-item'>Projects</li>
+                        <li className='header__menu-list-item--contact'>CONTACT</li>
+                    </ul>
                     <button className='header__menu-button' onClick={handleToggle}>
                         <img className='header__menu' src={menuIcon} alt='white menu option with three horizontal lines' />
                     </button>

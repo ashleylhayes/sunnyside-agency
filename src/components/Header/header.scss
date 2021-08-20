@@ -6,24 +6,76 @@
     width: 100vw;
     height: 143.467vw;
 
+    @include tablet {
+        background: url('../../assets/images/desktop/image-header.jpg') no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 55.556vw;
+    }
+
     &__menu-container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 9.333vw 6.667vw;
+
+        @include tablet {
+            padding: 6.333vw 6.667vw;
+        }
     }
 
     &__menu {
         height: 20px;
         width: 28px;
 
+        @include tablet {
+            display: none;
+        }
+
         &-logo {
             height: 24px;
             width: 124px;
         }
 
+        &-list {
+            display: none;
+
+            @include tablet {
+                display: flex;
+                width: 50vw;
+                justify-content: space-between;
+                align-items: center;
+                list-style-type: none;
+            }
+
+            &-item {
+                font-family: 'Barlow';
+                color: $neutral-white;
+                font-size: 16px;
+
+                &--contact{
+                    font-family: 'Fraunces';
+                    font-weight: 800;
+                    font-size: 14px;
+                    color: $neutral-dark;
+                    background-color: $neutral-white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 30px;
+                    height: 40px;
+                    width: 115px;
+                }
+            }
+        }
+
         &-button {
             background-color: transparent;
             border: none;
+
+            @include tablet {
+                display: none;
+            }
         }
 
         &-no-show {
@@ -95,10 +147,20 @@
         color: $neutral-white;
         text-align: center;
         margin: 12vw 9.333vw 14.667vw 9.333vw;
+
+        @include tablet {
+            font-size: 1.75rem;
+            margin: 0 0 25px 0;
+        }
     }
 
     &__arrow {
-        height: 30.25vw;
-        width: 9.5vw;
+        height: 114px;
+        width: 36px;
+
+        @include tablet {
+            height: 75px;
+            width: 24px;
+        }
     }
 }
