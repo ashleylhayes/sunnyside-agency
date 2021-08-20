@@ -4,25 +4,50 @@
     display: flex;
     flex-wrap: wrap;
 
+    @include tablet-large {
+        flex-wrap: nowrap;
+    }
+
     &__image {
         width: 50vw;
         height: 50vw;
         background-size: cover;
 
+        @include tablet-large {
+            width: 25vw;
+            height: 31.042vw;
+        }
+
         &:nth-child(1) {
             background-image: url('../../assets/images/mobile/image-gallery-milkbottles.jpg');
+
+            @include tablet-large {
+                background-image: url('../../assets/images/desktop/image-gallery-milkbottles.jpg');
+            }
         }
 
         &:nth-child(2) {
             background-image: url('../../assets/images/mobile/image-gallery-orange.jpg');
+
+            @include tablet-large {
+                background-image: url('../../assets/images/desktop/image-gallery-orange.jpg');
+            }
         }
 
         &:nth-child(3) {
             background-image: url('../../assets/images/mobile/image-gallery-cone.jpg');
+
+            @include tablet-large {
+                background-image: url('../../assets/images/desktop/image-gallery-cone.jpg');
+            }
         }
 
         &:nth-child(4) {
             background-image: url('../../assets/images/mobile/image-gallery-sugar-cubes.jpg');
+
+            @include tablet-large {
+                background-image: url('../../assets/images/desktop/image-gallery-sugar-cubes.jpg');
+            }
         }
     }
 }

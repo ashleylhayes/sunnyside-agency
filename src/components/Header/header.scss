@@ -20,7 +20,7 @@
         padding: 9.333vw 6.667vw;
 
         @include tablet {
-            padding: 6.333vw 6.667vw;
+            padding: 4.333vw 6.667vw 6.333vw 6.667vw;
         }
     }
 
@@ -46,6 +46,10 @@
                 justify-content: space-between;
                 align-items: center;
                 list-style-type: none;
+            }
+
+            @include tablet-large {
+                width: 40vw;
             }
 
             &-item {

@@ -4,11 +4,18 @@
     max-width: 100vw;
     margin-bottom: 18px;
 
+    @include tablet-large {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     &__title {
         font-family: 'Fraunces';
         font-weight: 800;
         text-align: center;
         color: $neutral-lightest;
+        width: 100vw;
         margin: 65px 0;
         font-size: 1rem;
         letter-spacing: 3.3px;
@@ -18,6 +25,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @include tablet-large {
+            width: 50vw;
+        }
 
         &-image {
             width: 70px;
@@ -35,6 +46,11 @@
 
             @include tablet {
                 margin: 35px 105px;
+            }
+
+            @include tablet-large {
+                margin: 35px 70px;
+                font-size: 16px;
             }
         }
 

@@ -19,6 +19,10 @@
             height: 80vw;
         }
 
+        @include tablet-large {
+            height: 41.667vw;
+        }
+
         &-title {
             font-family: 'Fraunces';
             font-weight: 800;
@@ -28,6 +32,11 @@
 
             @include tablet {
                 padding-top: 50vw;
+            }
+
+            @include tablet-large {
+                padding-top: 25vw;
+                font-size: 1.5rem;
             }
         }
 
@@ -42,6 +51,13 @@
             @include tablet {
                 width: 35vw;
             }
+
+            @include tablet-large {
+                width: 30vw;
+                font-size: 14px;
+                margin-top: 20px;
+                line-height: 25px;
+            }
         }
     }
 
@@ -49,11 +65,21 @@
         background: url('../../assets/images/mobile/image-graphic-design.jpg') no-repeat;
         background-size: contain;
         color: $alt-font-color-first;
+
+        @include tablet-large {
+            background: url('../../assets/images/desktop/image-graphic-design.jpg') no-repeat;
+            background-size: cover;
+        }
     }
 
     &__photography {
         background: url('../../assets/images/mobile/image-photography.jpg') no-repeat;
         background-size: contain;
         color: $alt-font-color-second;
+
+        @include tablet-large {
+            background: url('../../assets/images/desktop/image-photography.jpg') no-repeat;
+            background-size: cover;
+        }
     }
 }

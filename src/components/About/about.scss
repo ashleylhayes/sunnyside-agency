@@ -69,6 +69,11 @@
                 width: 40vw;
             }
 
+            @include tablet-large {
+                width: 30vw;
+                margin-right: 9.766vw;
+            }
+
             @include desktop {
                 font-size: 2.4rem;
                 width: 29.5vw;
@@ -106,6 +111,7 @@
             text-align: center;
             position: relative;
             z-index: 101;
+            cursor: pointer;
 
             @include tablet {
                 text-align: left;

@@ -17,6 +17,10 @@
         display: flex;
         margin-bottom: 100px;
 
+        @include tablet-large {
+            margin-bottom: 75px;
+        }
+
         &-item {
             color: $footer-font;
             font-size: 18px;
@@ -30,6 +34,10 @@
         width: 45vw;
         justify-content: space-between;
         margin-bottom: 80px;
+
+        @include tablet-large {
+            width: 20vw;
+        }
 
         &-icon {
             width: 20px;
