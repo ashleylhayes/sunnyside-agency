@@ -10,6 +10,10 @@
         justify-content: space-around;
     }
 
+    @include desktop {
+        padding: 6vw 8vw;
+    }
+
     &__title {
         font-family: 'Fraunces';
         font-weight: 800;
@@ -19,6 +23,11 @@
         margin: 65px 0;
         font-size: 1rem;
         letter-spacing: 3.3px;
+
+        @include desktop {
+            font-size: 1.25rem;
+            letter-spacing: 5px;
+        }
     }
 
     &__testimonial {
@@ -28,6 +37,10 @@
 
         @include tablet-large {
             width: 50vw;
+        }
+
+        @include desktop {
+            width: 25vw;
         }
 
         &-image {
@@ -51,6 +64,12 @@
             @include tablet-large {
                 margin: 35px 70px;
                 font-size: 16px;
+            }
+
+            @include desktop {
+                font-size: 18px;
+                margin: 50px 0px;
+                letter-spacing: 0.2px;
             }
         }
 

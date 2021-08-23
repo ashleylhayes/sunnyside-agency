@@ -39,6 +39,10 @@
             width: 20vw;
         }
 
+        @include desktop {
+            width: 12vw;
+        }
+
         &-icon {
             width: 20px;
             height: 19px;
