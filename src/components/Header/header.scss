@@ -99,17 +99,18 @@
         &-button {
             background-color: transparent;
             border: none;
+            cursor: pointer;
 
             @include tablet {
                 display: none;
             }
         }
 
-        &-no-show {
+        &-closed {
             display: none;
         }
 
-        &-show {
+        &-open {
             background-color: $neutral-white;
             height: 83vw;
             width: 86vw;

@@ -3,7 +3,7 @@ import './services.scss';
 
 function Services() {
     return (
-        <section className='services'>
+        <section className='services' id='services'>
             <div className='services__featured services__design'>
                 <h3 className='services__featured-title'>
                     Graphic Design

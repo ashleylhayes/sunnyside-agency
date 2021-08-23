@@ -6,7 +6,7 @@ import thirdClient from '../../assets/images/clients/image-jennie.jpg'
 
 function Testimonials() {
     return (
-        <section className='testimonials'>
+        <section className='testimonials' id='testimonials'>
             <h4 className='testimonials__title'>
                 CLIENT TESTIMONIALS
             </h4>
